@@ -136,110 +136,6 @@
               }
             },
             {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 1537,
-                "y": 123
-              },
-              "angle": 0,
-              "id": "deab42f0-c30c-4357-98b5-bea0d240577a",
-              "z": 5,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Auth Data Store"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 1003,
-                "y": 678
-              },
-              "angle": 0,
-              "id": "af3e9491-61b1-49b3-a5fd-b7c203da66ec",
-              "z": 6,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Order Data Store"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 641,
-                "y": 688
-              },
-              "angle": 0,
-              "id": "7bea2ef3-872b-4fed-9841-0c3f7aec2fed",
-              "z": 7,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Product Data Store"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 1317,
-                "y": 625
-              },
-              "angle": 0,
-              "id": "f98927b8-babc-4464-a76d-ad0267a40e21",
-              "z": 9,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Customer Data Store"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Flow",
               "size": {
                 "width": 10,
@@ -613,7 +509,7 @@
                 "id": "af608ab5-5efb-4837-ac14-d0fbbe5c505a"
               },
               "target": {
-                "id": "deab42f0-c30c-4357-98b5-bea0d240577a"
+                "id": "3bdf168a-9c39-47d0-9a8c-7122a010c04c"
               },
               "vertices": [
                 {
@@ -656,7 +552,7 @@
               },
               "smooth": true,
               "source": {
-                "id": "deab42f0-c30c-4357-98b5-bea0d240577a"
+                "id": "3bdf168a-9c39-47d0-9a8c-7122a010c04c"
               },
               "target": {
                 "id": "af608ab5-5efb-4837-ac14-d0fbbe5c505a"
@@ -705,7 +601,7 @@
                 "id": "af608ab5-5efb-4837-ac14-d0fbbe5c505a"
               },
               "target": {
-                "id": "7bea2ef3-872b-4fed-9841-0c3f7aec2fed"
+                "id": "40d39b97-aa79-43e9-9123-2aaacd8d6529"
               },
               "vertices": [
                 {
@@ -748,7 +644,7 @@
               },
               "smooth": true,
               "source": {
-                "id": "7bea2ef3-872b-4fed-9841-0c3f7aec2fed"
+                "id": "40d39b97-aa79-43e9-9123-2aaacd8d6529"
               },
               "target": {
                 "id": "af608ab5-5efb-4837-ac14-d0fbbe5c505a"
@@ -794,7 +690,7 @@
               },
               "smooth": true,
               "source": {
-                "id": "7bea2ef3-872b-4fed-9841-0c3f7aec2fed"
+                "id": "40d39b97-aa79-43e9-9123-2aaacd8d6529"
               },
               "target": {
                 "id": "af608ab5-5efb-4837-ac14-d0fbbe5c505a"
@@ -843,7 +739,7 @@
                 "id": "af608ab5-5efb-4837-ac14-d0fbbe5c505a"
               },
               "target": {
-                "id": "7bea2ef3-872b-4fed-9841-0c3f7aec2fed"
+                "id": "40d39b97-aa79-43e9-9123-2aaacd8d6529"
               },
               "vertices": [
                 {
@@ -886,7 +782,7 @@
               },
               "smooth": true,
               "source": {
-                "id": "f98927b8-babc-4464-a76d-ad0267a40e21"
+                "id": "7667fe0a-1742-4e1a-b037-b15c2dbe953a"
               },
               "target": {
                 "id": "af608ab5-5efb-4837-ac14-d0fbbe5c505a"
@@ -935,7 +831,7 @@
                 "id": "af608ab5-5efb-4837-ac14-d0fbbe5c505a"
               },
               "target": {
-                "id": "f98927b8-babc-4464-a76d-ad0267a40e21"
+                "id": "7667fe0a-1742-4e1a-b037-b15c2dbe953a"
               },
               "vertices": [
                 {
@@ -981,7 +877,7 @@
                 "id": "af608ab5-5efb-4837-ac14-d0fbbe5c505a"
               },
               "target": {
-                "id": "af3e9491-61b1-49b3-a5fd-b7c203da66ec"
+                "id": "9cc4d64c-0360-4680-8a82-e28b5a54724d"
               },
               "vertices": [
                 {
@@ -1021,7 +917,7 @@
               },
               "smooth": true,
               "source": {
-                "id": "af3e9491-61b1-49b3-a5fd-b7c203da66ec"
+                "id": "9cc4d64c-0360-4680-8a82-e28b5a54724d"
               },
               "target": {
                 "id": "af608ab5-5efb-4837-ac14-d0fbbe5c505a"
@@ -1215,6 +1111,110 @@
                 }
               ],
               "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 628,
+                "y": 703
+              },
+              "angle": 0,
+              "id": "40d39b97-aa79-43e9-9123-2aaacd8d6529",
+              "z": 33,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Product Data Store"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 992,
+                "y": 687
+              },
+              "angle": 0,
+              "id": "9cc4d64c-0360-4680-8a82-e28b5a54724d",
+              "z": 34,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Order Data Store"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1261,
+                "y": 630
+              },
+              "angle": 0,
+              "id": "7667fe0a-1742-4e1a-b037-b15c2dbe953a",
+              "z": 35,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Customer Data Store"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1493,
+                "y": 167
+              },
+              "angle": 0,
+              "id": "3bdf168a-9c39-47d0-9a8c-7122a010c04c",
+              "z": 36,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Auth Data Store"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
